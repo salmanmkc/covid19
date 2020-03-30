@@ -154,7 +154,6 @@ export default class Home extends Component {
               </ScrollView>
             </View>
             {/* ----------- India new stats starts here -------------- */}
-
             <View style={styles.moreInfoConatiner}>
               <Text
                 style={{

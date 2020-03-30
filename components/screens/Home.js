@@ -106,7 +106,6 @@ export default class Home extends Component {
           }
         >
           <Image source={CoronaImage} style={styles.headerImage} />
-
           <View style={styles.content}>
             <View style={{ height: height * 0.3 }}>
               <ScrollView
@@ -115,7 +114,6 @@ export default class Home extends Component {
               >
                 <View style={styles.chartsScrollViewContainer}>
                   {/* ----------- confirmed chart starts here -------------- */}
-
                   <View style={styles.flexStartConatier}>
                     <Text style={styles.chartTitle}>
                       {"Total Confirmed "}
@@ -156,7 +154,6 @@ export default class Home extends Component {
               </ScrollView>
             </View>
             {/* ----------- India new stats starts here -------------- */}
-
             <View style={styles.moreInfoConatiner}>
               <Text
                 style={{
@@ -260,9 +257,7 @@ export default class Home extends Component {
               <Text style={styles.rowText}>Stay Safe</Text>
             </View>
             {/* ----------- symptoms starts here -------------- */}
-
             <Text style={styles.title}>Symptoms</Text>
-
             <View style={styles.imageContainer}>
               <Image
                 style={styles.symptomsImage}
@@ -341,8 +336,8 @@ const styles = StyleSheet.create({
   },
   content: {
     paddingHorizontal: 20,
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
+    borderTopLeftRadius: 32,
+    borderTopRightRadius: 32,
     marginTop: -40,
     paddingTop: 40,
     backgroundColor: "#F2F4F5",
@@ -476,7 +471,7 @@ const styles = StyleSheet.create({
     paddingBottom: 20
   },
   symptomsImage: {
-    width: width - 50,
+    width: width - 48,
     resizeMode: "contain",
     height: 200,
     borderRadius: 10,

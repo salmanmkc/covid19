@@ -40,9 +40,7 @@ export default class AppContainer extends React.Component {
       require("./assets/map.png"),
       require("./assets/pmdonate.png")
     ]);
-
     const fontAssets = cacheFonts([FontAwesome.font]);
-
     await Promise.all([...imageAssets, ...fontAssets]);
   }
 
@@ -56,7 +54,6 @@ export default class AppContainer extends React.Component {
         />
       );
     }
-
     return <Home />;
   }
 }

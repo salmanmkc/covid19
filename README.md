@@ -1,13 +1,13 @@
 # covid19
 CVOID-19 India App
-
+- 
 # Development
 
 You will need Android Studio/Xcode
 
-npm i -g expo-cli
+- npm i -g expo-cli
 
-yarn install
+- yarn install
 
-expo start
+- expo start
 
